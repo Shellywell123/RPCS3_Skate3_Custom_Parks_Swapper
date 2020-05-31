@@ -34,11 +34,11 @@ foo@bar:~$ python3 swap_custom_parks_out.py
  --------------------------------------------------------------
 
 
-Current park save in game:
+Current Custom Park file in RPCS3:
  - My_PC_Parks
-Saved any changes made in My_PC_Parks to your repository
+Saved any changes made to My_PC_Parks to your repository
 
-Custom Parks in your repository:
+Custom Park files in your repository:
  - My_PS3_Slim_Parks
  - My_PC_Parks
  - My_Friends_Parks
