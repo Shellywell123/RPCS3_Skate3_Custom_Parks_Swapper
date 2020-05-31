@@ -76,7 +76,7 @@ def swap_park_saves():
     
     choice_list = list_park_saves_in_repo()
 
-    choice = input('\nInput Which Park_Saves you want to play:\n')
+    choice = input('\nInput which Park_Saves you want to play (can copy and paste from list above):\n')
     print('')
 
     if choice == 'exit':
@@ -86,7 +86,7 @@ def swap_park_saves():
         empty_rpcs3()
         ostr = "cp {}* {}".format(os_parks_repo_path+choice+'/',os_rpcs3_park_folder_path)
         os.system(ostr)
-        print('{} files placed into RPCS3 folder'.format(choice))
+        print('{} files copied into RPCS3 folder'.format(choice))
         set_current_save_parks(choice)
         print('--------------------------------------------------------------')
     else:
