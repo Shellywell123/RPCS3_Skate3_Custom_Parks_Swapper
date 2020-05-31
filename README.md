@@ -18,6 +18,8 @@ os_rpcs3_park_folder_path = "same as above with appropriate '\'s in path "
 ```
 (Note this program expects the custom park files to extracted in to folders, alongside a txt containing the name of the current park in the RPCS3 folder)\
 
+Instructions still to be written
+
 ### How to run:
 Once you have completed the set up instuctions above, execute the python script using python3:
 ```bash
