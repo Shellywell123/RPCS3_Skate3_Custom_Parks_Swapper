@@ -36,9 +36,9 @@ foo@bar:~$ python3 swap_custom_parks_out.py
 
 Current park save in game:
  - My_PC_Parks
-Updated Bens_Razer_Blade_Parks in Repo
+Saved any changes made in My_PC_Parks to your repository
 
-Save parks in repository:
+Custom Parks in your repository:
  - My_PS3_Slim_Parks
  - My_PC_Parks
  - My_Friends_Parks

@@ -43,7 +43,7 @@ def update_park_save_changes():
     try:
         osstr = 'cp {}* {}'.format(os_rpcs3_park_folder_path,os_parks_repo_path+current_park_save+'/')
         os.system(osstr)
-        print('Updated {} in Repo'.format(current_park_save))
+        print('Saved any changes made in {} to your repository'.format(current_park_save))
     except:
         print('Updated of {} in Repo FAILED'.format(current_park_save))
         exit(0)
@@ -60,7 +60,7 @@ def print_files_in_rpcs3_folder():
 
 def list_park_saves_in_repo():
     """shows the user the possible options of save park files he can swap between"""
-    print('\nSave parks in repository:')
+    print('\nCustom Parks in your repository:')
 
     repo_list = []
     for d in os.listdir(parks_repo_path) :
