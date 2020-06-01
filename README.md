@@ -3,7 +3,7 @@
 \
 This program manages the custom skatepark files (`SPARK_SKATER`) for skate 3 in the RPCS3 emulator, I wrote this as I have many custom park files I enjoy swapping between and got tired of manually copying and pasting between directories on my PC.\
 
-### Background
+### Project Motivation
 If like me you have recently moved from gaming on your PS3 console to to a PC and are now using RPCS3 to continue playing the best game in the world (Skate 3). You are likely to have multiple custom skatepark files, ones which you have made on your old PS3 console and ones which you have since made on your PC. 
 
 This program is designed be used for quickly and easily swapping between custom skate 3 skate park files for playing in the RPCS3 emulator. My knowledge thus far is that you can only have one custom skateparks file occupying the RPCS3 emulator at a time, and am not yet sure wether there is a way to combine multiple file into once, hence the need to swap between files.\
@@ -19,7 +19,7 @@ The program uses the basic linux commands  such as `cp` and `rm` to move files a
 
  - All custom skatepark files `SPARK_SKATER` have been extracted into named folders containing `.B`, `.H`, `DDATA`, `.PDF` and `.SFO` files. It is preferable the folder names do not contain spaces or non-ascii characters. Example folder names `My_PC_Parks/` and `My_PS3_Slim_Parks`.
 
- - The parent folder containing all your custom skatepark folders must also contain a `.txt` file named `CPIRPCS3(DoNotDelete).txt` (Current Parks In RPCS3) and in it must be the matching folder whose contents is currently being played. If this is the first time swapping out custom park files on your PC, i.e your custom skateparks are the ones you made on your PC, you will have your PC`s made parks in the RPCS3 folder. Therfore you will want to put the name `My_PC_Parks` or your equivalent folder name into the `.txt` with no trailing spaces. The program reads this `CPIRPCS3(DoNotDelete).txt` file to know which of the custom skatpark folders contents are currently in use in RPCS3.
+ - The parent folder containing all your custom skatepark folders must also contain a `.txt` file named `CPIRPCS3(DoNotDelete).txt` (Current Parks In RPCS3) and in it must be the matching folder whose contents is currently being played. If this is the first time swapping out custom park files on your PC, i.e your custom skateparks are the ones you made on your PC, you will have your PC's made parks in the RPCS3 folder. Therfore you will want to put the name `My_PC_Parks` or your equivalent folder name into the `.txt` with no trailing spaces. The program reads this `CPIRPCS3(DoNotDelete).txt` file to know which of the custom skatpark folders contents are currently in use in RPCS3.
 
 #### 2) Set script paths to be for your machine.
 
