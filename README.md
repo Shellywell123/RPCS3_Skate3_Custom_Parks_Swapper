@@ -1,7 +1,7 @@
 #  RPCS3_Skate3_Custom_Parks_Swapper
 (!THIS IS STILL IN DEVELOPMENT, IF YOU ARE GOING TO USE THIS PROGRAM, BACKUP ALL YOUR CUSTOM SKATEPARK FILES FIRST TO A SEPERATE FOLDER ON YOU PC!)\
 \
-This program manages the custom skatepark files ('SPARK_SKATER') for skate 3 in the RPCS3 emulator, I wrote this as I have many custom park files I enjoy swapping between and got tired of manually copying and pasting between directories on my PC.\
+This program manages the custom skatepark files (`SPARK_SKATER`) for skate 3 in the RPCS3 emulator, I wrote this as I have many custom park files I enjoy swapping between and got tired of manually copying and pasting between directories on my PC.\
 
 ### Background
 If like me you have recently moved from gaming on your PS3 console to to a PC and are now using RPCS3 to continue playing the best game in the world (Skate 3). You are likely to have multiple custom skatepark files, ones which you have made on your old PS3 console and ones which you have since made on your PC. 
@@ -11,15 +11,15 @@ This program is designed be used for quickly and easily swapping between custom 
 (Note this program is for swapping between skatepark save files you already have on your PC or dumped from your console)\
 
 ### Code  
-The program uses the basic linux commands  such as 'cp' and 'rm' to move files around on your machine via the python 3 package 'os'.
+The program uses the basic linux commands  such as `cp` and `rm` to move files around on your machine via the python 3 package `os`.
 
 ### How to setup:
 
 #### 1) Set up your various park save files in the format the program expects
 
- - All custom skatepark files 'SPARK_SKATER' have been extracted into named folders containing '.B', '.H', 'DDATA', '.PDF' and '.SFO' files. It is preferable the folder names do not contain spaces or non-ascii characters. Example folder names 'My_PC_Parks/' and 'My_PS3_Slim_Parks'.
+ - All custom skatepark files `SPARK_SKATER` have been extracted into named folders containing `.B`, `.H`, `DDATA`, `.PDF` and `.SFO` files. It is preferable the folder names do not contain spaces or non-ascii characters. Example folder names `My_PC_Parks/` and `My_PS3_Slim_Parks`.
 
- - The parent folder containing all your custom skatepark folders must also contain a '.txt' file named 'CPIRPCS3(DoNotDelete).txt' (Current Parks In RPCS3) and in it must be the matching folder whose contents is currently being played. If this is the first time swapping out custom park files on your PC, i.e your custom skateparks are the ones you made on your PC, you will have your PC's made parks in the RPCS3 folder. Therfore you will want to put the name 'My_PC_Parks' or your equivalent folder name into the '.txt' with no trailing spaces. The program reads this 'CPIRPCS3(DoNotDelete).txt' file to know which of the custom skatpark folders contents are currently in use in RPCS3.
+ - The parent folder containing all your custom skatepark folders must also contain a `.txt` file named `CPIRPCS3(DoNotDelete).txt` (Current Parks In RPCS3) and in it must be the matching folder whose contents is currently being played. If this is the first time swapping out custom park files on your PC, i.e your custom skateparks are the ones you made on your PC, you will have your PC`s made parks in the RPCS3 folder. Therfore you will want to put the name `My_PC_Parks` or your equivalent folder name into the `.txt` with no trailing spaces. The program reads this `CPIRPCS3(DoNotDelete).txt` file to know which of the custom skatpark folders contents are currently in use in RPCS3.
 
 #### 2) Set script paths to be for your machine.
 
@@ -28,12 +28,12 @@ The program uses the basic linux commands  such as 'cp' and 'rm' to move files a
 ```python
 #paths for python
 parks_repo_path = "path to where your multiple park files are stored"
-os_parks_repo_path = "same as above with appropriate '\'s in path "
+os_parks_repo_path = "same as above with appropriate `\`s in path "
 
 #paths for terminal
-rpcs3_park_folder_path = 'path to RPCS3/dev_hdd0/home/00000001/savedata/BLES00760-SPARK_SKATER/'
+rpcs3_park_folder_path = `path to RPCS3/dev_hdd0/home/00000001/savedata/BLES00760-SPARK_SKATER/`
     #may be BLUS is you have US ver of skate3
-os_rpcs3_park_folder_path = "same as above with appropriate '\'s in path "
+os_rpcs3_park_folder_path = "same as above with appropriate `\`s in path "
 ```
 (Note this program expects the custom park files to extracted in to folders, alongside a txt containing the name of the current park in the RPCS3 folder)\
 
@@ -57,7 +57,7 @@ Custom Park files in your repository:
  - My_PC_Parks
  - My_Friends_Parks
 ```
-The program will then tell you which park is currently in your RPCS3 folder and save any changes you have made to it while playing before swapping it. The program will also list all the custom park folders you can swap from and ask you to chose one via a user input. In the example script below 'Bens_PS3_Slim_Parks' was chosen.
+The program will then tell you which park is currently in your RPCS3 folder and save any changes you have made to it while playing before swapping it. The program will also list all the custom park folders you can swap from and ask you to chose one via a user input. In the example script below `Bens_PS3_Slim_Parks` was chosen.
 ```bash
 Input which Park_Saves you want to play (can copy and paste from list above):
 >> My_PS3_Slim_Parks
