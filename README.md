@@ -23,7 +23,7 @@ The program uses the basic linux commands  such as `cp` and `rm` to move files a
 
 #### 2) Set script paths to be for your machine.
 
- - In the python script you need to change the the paths to be relative to the folders on your PC (I will leave mine in script as an example):
+ - In the `swap_custom_parks_out.py` script you need to change the the paths to be relative to the folders on your PC (I will leave mine in script as an example):
 
 ```python
 #paths for python
