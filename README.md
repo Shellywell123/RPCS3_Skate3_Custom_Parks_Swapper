@@ -1,5 +1,6 @@
 #  RPCS3_Skate3_Custom_Parks_Swapper
 (!THIS IS STILL IN DEVELOPMENT, IF YOU ARE GOING TO USE THIS PROGRAM, BACKUP ALL YOUR CUSTOM SKATEPARK FILES FIRST TO A SEPERATE FOLDER ON YOU PC!)\
+\
 This program manages customskatepark files for skate3 in RPCS3, I wrote this as I have many custom park files I enjoy swapping between and got tired of manually copying and pasting between directories on my PC.
 If like me you have recently moved from gaming on your PS3 console to to a PC and are now using RPCS3 to continue playing the best game in the world (Skate3). You are likely to have multiple custom skatepark files, ones which you have made on your old PS3 and ones which you have since made on your PC. This program is to be used for easily swapping out the custom skate park files in the RPCS3 emulator to be played in the game. As my knowlege thus far is that you can only have one skateparks file at a time, and not sure there is a way to combine them.\
 (Note this program is for swapping between skatepark save files you already hve on your PC, using the basic commands in a linux terminal i.e 'cp'.)
