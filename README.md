@@ -10,9 +10,13 @@ If like me you have recently moved from gaming on your PS3 console to to a PC an
 ### How to setup:
 
 #### 1) Set up your various park save files in the format the program expects
-    - All parks files 'SPARK_SKATER' have been extracted into named folders containing B,H,DDATA,PDF,SFO files. It is preferable the the folder names do not contain spaces or non-ascii characters. Example = 'My_PC_Parks/' as a folder name.
-    - The parent folder containing all your park save folders must also contain a txt file named 'CPIRPCS(DoNotDelete).txt' and in it must be the matching name to one of the folders in your repo/parent folder. If this is the first time swapping out custom park files on your pc, yoou will have your pc's made parks in the rpcs3 folder, therfore you will want to put the name 'My_PC_Parks' or your equivalent folder name written in the txt with no trailing spaces. The program reads this txt file to know which of the folders/ park files in currently in use in RPCS3.
-#### 2) Set script paths to be for your machine. In the python script you need to change the the paths to be relative to the folders on your PC (I will leave mine in script as an example):
+
+ - All parks files 'SPARK_SKATER' have been extracted into named folders containing B,H,DDATA,PDF,SFO files. It is preferable the the folder names do not contain spaces or non-ascii characters. Example = 'My_PC_Parks/' as a folder name.
+ - The parent folder containing all your park save folders must also contain a txt file named 'CPIRPCS(DoNotDelete).txt' and in it must be the matching name to one of the folders in your repo/parent folder. If this is the first time swapping out custom park files on your pc, yoou will have your pc's made parks in the rpcs3 folder, therfore you will want to put the name 'My_PC_Parks' or your equivalent folder name written in the txt with no trailing spaces. The program reads this txt file to know which of the folders/ park files in currently in use in RPCS3.
+
+#### 2) Set script paths to be for your machine.
+
+ - In the python script you need to change the the paths to be relative to the folders on your PC (I will leave mine in script as an example):
 
 ```python
 #paths for python
