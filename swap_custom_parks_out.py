@@ -22,14 +22,14 @@ def ascii():
 
 def set_current_save_parks(newname):
     """sets txt log to be the name of the current skate parks file in the RPCS3 folder"""
-    file = parks_repo_path+'CPIRPCS(DoNotDelete).txt'
+    file = parks_repo_path+'CPIRPCS3(DoNotDelete).txt'
 
     with open(file, 'w') as f:
         f.write(newname)
 
 def get_current_save_parks():
     """ retrieve the name of the current skateparks file in the RPCS3 file from the log txt"""
-    file = parks_repo_path+'CPIRPCS(DoNotDelete).txt'
+    file = parks_repo_path+'CPIRPCS3(DoNotDelete).txt'
 
     with open(file, 'r') as f:
        cont = f.read()
